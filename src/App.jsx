@@ -1,11 +1,13 @@
 import './App.css'
+import Coffe from './components/coffe/Coffe'
 
 function App() {
 
   return (
-    <>
-     <div>App</div>
-    </>
+    <div>
+      <Coffe/>
+    </div>
+    
   )
 }
 
