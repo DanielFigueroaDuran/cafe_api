@@ -17,7 +17,7 @@ const Coffe = () => {
     }, []);
 
     const handleClick = () => {
-        console.log('hola');
+        //console.log('hola');
     };
 
     return (
