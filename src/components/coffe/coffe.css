@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #faf8f8;
+}
+
+:root {
+  --color45: #2a5b45;
+  --color27: #111827;
+  --color2b: #2b2a2b;
+  --color00: #000000;
+  --colorff: #ffffff;
+  --color80: #6b7280;
+  --color51: #374151;
+  --background15: #1f1815;
+  --background45: #2a5b45;
+  --backgroundff: #ffffff;
+  --background2b: #2b2a2b;
+  --backgroundCant: #2a5b451a;
+}
+
+/*----------------------SECTION-HERO------------------------------  */
+
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.pre-title {
+  color: var(--color45);
+}
+
+/*----------------------- cards 2 de varias imagenes-------------------------- */
+.cardss {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 40px;
+}
+
+.title-cards {
+  display: flex;
+  justify-content: center;
+  color: var(--color45);
+}
+
+.card-wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px;
+}
+
+.product-card {
+  display: flex; 
+  gap: 24px;
+  border: 1px solid #e3d3d7;
+  border-radius: 8px;
+  padding: 24px;
+  transition: all 0.3s ease 0s;
+}
+
+.product-card:hover {
+  background-color: #e3ded7;
+}
+
+.product-card:hover .button-caja {
+  background: #2a5b45;
+}
+
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.tex {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.paragraph {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.paragraph-card {
+  color: var(--color00);
+  gap: 12px;
+}
+
+.button-caja {
+  background: #2a5b45b2;
+  border-radius: 4px;
+  padding: 8px;
+  gap: 8px;
+  border: none;
+}
+
+.button-cafe,
+.footer-card a,
+.footer-card2 a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-card a {
+  color: var(--color00);
+  text-decoration: underline;
+}
+
+ .arrow {
+    color: #e3d3d7;
+ }
+.price {
+  display: flex;
+  width: 54px;
+  height: 24px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
