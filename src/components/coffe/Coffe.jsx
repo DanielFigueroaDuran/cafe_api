@@ -1,5 +1,5 @@
 import { React, useEffect, useState } from 'react'
-import "./coffe.css"
+//import "./coffe.css"
 import  Arrow  from "../../assets/icon/Arrow.png";
 import { getData } from "../helpers/Data.js";
 import Button from './Button.jsx';
@@ -19,15 +19,15 @@ const Coffe = () => {
     const handleClick = () => {
         //console.log('hola');
     };
-
+    //cardss
     return (
         <>
-            <div className="cardss">
-                <h2 className="title-cards">Novedades</h2>
-                <div className="card-wrapper2">
+            <div className="flex flex-col p-4 gap-10">
+                <h2 className="flex justify-center text-[rgb(42,91,69)]">Novedades</h2>
+                <div className="flex justify-center gap-6 p-6">
                     {coffes?.slice(0, 4).map((coffe, i) => {
                         return (
-                            <div className='product-card card' key={i}>
+                            <div className='flex p-6 rounde-lg border border-sky-[rgb(227, 211, 215)] ease-in hover:[rgb(227, 222, 215)]' key={i}>
                                 <div className='container-card images-cafe cardCafe'>
                                     <img className='cafeImg' src={coffe.img_url} alt="coffe" />
                                     <div className='tex'>
